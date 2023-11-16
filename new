@@ -1,0 +1,42 @@
+<!-- update modal -->
+<div action = ""class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="updateModalLabel">Update Details</h5>
+      </div>
+      <div class="modal-body">
+  <div class="form-group">
+    <label for="updateName">Student Name</label>
+    <input type="name" class="form-control" id="updateName" placeholder="Enter Your Name">
+  </div>
+  <div class="form-group">
+    <label for="updateMath">Math</label>
+    <input type="number" class="form-control" id="updateMath" placeholder="Enter Your Math Score">
+  </div>
+  <div class="form-group">
+    <label for="updateScience">Science</label>
+    <input type="number" class="form-control" id="updateScience" placeholder="Enter Your Science Score">
+  </div>
+  <div class="form-group">
+    <label for="updateEnglish">English</label>
+    <input type="number" class="form-control" id="updateEnglish" placeholder="Enter Your English Score">
+  </div>
+  <div class="form-group">
+    <label for="updateBangla">Bangla</label>
+    <input type="number" class="form-control" id="updateBangla" placeholder="Enter Your Bangla Score">
+  </div>
+  <div class="form-group">
+    <label for="updateReligion">Religion</label>
+    <input type="number" class="form-control" id="updateReligion" placeholder="Enter Your Religion Score">
+  </div>
+
+      </div>
+      <div class="modal-footer">
+      <button type="button" class="btn btn-dark">Update</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <input type="hidden" id="hiddenData">
+      </div>
+    </div>
+  </div>
+</div>
